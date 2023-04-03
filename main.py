@@ -1,11 +1,11 @@
 ## 메서드 선언부
 
 def add_func(n1,n2):
-    res=n1+n2
+    res=n1*n2
     return res
 
 def sub_func(n1,n2):
-    return n1-n2
+    return n1*n2
     
 
 
@@ -15,7 +15,7 @@ num1,num2,result=100,200,0
 
 ## 메인 코드부 (static void main(String args[]){)
 result=add_func(num1,num2)
-print(num1,'+',num2,'=',result)
+print(num1,'*',num2,'=',result)
 
 result=sub_func(num1,num2)
-print(num1,'-',num2,'=',result)
+print(num1,'*',num2,'=',result)
